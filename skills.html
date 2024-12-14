@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Portfolio</title>
+    <style>
+        /* Basic reset */
+        body, h2, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body styles */
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Skills section container */
+        .skills-section {
+            background-color: #fff;
+            padding: 50px 20px;
+            margin: 50px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading style */
+        .skills-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Programming languages container */
+        .programming-languages {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        /* Individual card style */
+        .card {
+            background-color: #f39c12;
+            color: white;
+            width: 180px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* Card title */
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Hover effect for card */
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Card icon (optional) */
+        .card i {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="skills-section">
+        <h2>My Skills</h2>
+        <div class="programming-languages">
+            <!-- Card for JavaScript -->
+            <div class="card">
+                <i class="fas fa-code"></i> <!-- Optional: Use FontAwesome or other icon libraries -->
+                <h3>HTML</h3>
+            </div>
+
+            <!-- Card for Swift -->
+            <div class="card">
+                <i class="fas fa-code"></i> <!-- Optional: Use FontAwesome or other icon libraries -->
+                <h3>CSS</h3>
+            </div>
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h3>C</h3>
+            </div>
+
+            <!-- Card for Kotlin -->
+            <div class="card">
+                <i class="fas fa-code"></i> <!-- Optional: Use FontAwesome or other icon libraries -->
+                <h3>Kotlin</h3>
+            </div>
+
+            <!-- Card for Python -->
+            <div class="card">
+                <i class="fas fa-code"></i> <!-- Optional: Use FontAwesome or other icon libraries -->
+                <h3>Python</h3>
+            </div>
+
+            <!-- Card for Java -->
+            <div class="card">
+                <i class="fas fa-code"></i> <!-- Optional: Use FontAwesome or other icon libraries -->
+                <h3>Java</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
+

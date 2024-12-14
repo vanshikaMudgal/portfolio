@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <style>
+        /* Basic reset */
+        body, h2, p, form, input, textarea {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body styles */
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact section container */
+        .contact-section {
+            background-color: #fff;
+            padding: 50px 20px;
+            margin: 50px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading style */
+        .contact-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #f39c12;
+            margin-bottom: 30px;
+        }
+
+        /* Form container */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Input and Textarea styles */
+        .contact-form input, .contact-form textarea {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Focus styles for inputs */
+        .contact-form input:focus, .contact-form textarea:focus {
+            outline: none;
+            border-color: #e29d2d;
+            box-shadow: 0 0 5px #e29d2d;
+        }
+
+        /* Submit button style */
+        .contact-form button {
+            background-color: #e29d2d;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Hover effect for submit button */
+        .contact-form button:hover {
+            background-color: #f39c12;
+        }
+
+        /* Optional footer (e.g., for social links) */
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0c0801;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <p style="text-align: center; font-size: 1.2rem;">Feel free to reach out if you have any questions, suggestions, or collaboration opportunities!</p>
+        <form class="contact-form" action="https://formspree.io/f/{your_form_id}" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Optional Footer -->
+    <div class="footer">
+        <p>Let's connect! | <a href="mailto:mudgalvanshika218@gmail.com" style="color: #fff; text-decoration: none;">mudgalvanshika218@gmail.com</a></p>
+    </div>
+
+</body>
+</html>
